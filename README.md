@@ -23,7 +23,8 @@ There is 4 key values of PID
 3. Error
 4. Output
 
-![image](https://user-images.githubusercontent.com/19898602/138689216-8b6a115a-1e7f-42c3-afa8-b63f05628839.png)
+![Untitled-1](https://user-images.githubusercontent.com/19898602/138690520-ac26ff35-bceb-4bd8-acbe-4e020b4f5968.gif)
+
 
 
 Basic PID working is as follow, I am not going into complex arithmetic an calculus formulas because I want to keep it simple.
@@ -116,6 +117,24 @@ pin 2 and 3
 Here I have used a L293D H bridge motor control IC is used to control DC motor it can work on voltage range of 5V to 36V it can handle 1A per channel and peak of 2A per channel
 HC-05 BT module must be connected to serial pin(TX, RX) pin 0 & 1 on arduino.
 I have used 9V battery to supply power to motor.
+
+Before moving fuurther I would like to tell you something about PCB
+
+Yes PCB are the heart of the electronics based project usually we hesitate to try custom PCB and opt to homemade solutions
+
+like breadboard or Zero PCB earlier I also was in the same boat, I hesitate to try custom PCB my belief was they are much expensive.
+
+but then I came to know about [JLCPCB.COM](https://jlcpcb.com/IAT) and I was totally surprised how low price PCB's are they offering 
+
+there PCB quality is best in market, now I always go with PCB for my project and [JLCPCB.COM](https://jlcpcb.com/IAT) is my trusted 
+
+If new user signup now using this link [JLCPCB.COM](https://jlcpcb.com/IAT) they will get 30$ coupon from [JLCPCB.COM](https://jlcpcb.com/IAT)
+
+PCB manufacturer, you can also try there PCB service for more details you can visit their website [JLCPCB.COM](https://jlcpcb.com/IAT)
+You can also try there new purple colour for PCB without any extra cost.
+![image](https://user-images.githubusercontent.com/19898602/134336832-cb9953e9-02a6-4ff7-9d27-2caad10fe7c7.png)
+![image](https://user-images.githubusercontent.com/19898602/130722577-c30b7b43-ea89-4847-9c6b-058f9fabeda3.png)![image](https://user-images.githubusercontent.com/19898602/130722585-b5268db1-5f17-428f-ba60-b823140f2a70.png)
+
 
 
 # Code
